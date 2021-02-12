@@ -17,7 +17,10 @@ Do the following:
 
    HINT: no function required
 */
-
+const votingAge = 18;
+if (votingAge >= 18) {
+  return "True";
+}
 /*
 Task 1b - Values
 
@@ -28,7 +31,7 @@ Do the following:
 
    HINT: no function required
 */
-
+hey;
 /*
 Task 1c - Convert Strings to Numbers
 
