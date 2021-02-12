@@ -147,11 +147,18 @@ Use the game function below to do the following:
   
   HINT: Remember that the order in which we pass in our arguments matters when it comes to parameters
 */
-
+let computer = Math.random();
 function game(user, computer) {
-  /*add your code here*/
+  if (user > computer) {
+    return "you win!";
+  } else if (user == computer) {
+    return "it's a tie";
+  } else {
+    return "you lose!";
+  }
 }
 
+"
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
 //Metric Converter
@@ -163,8 +170,9 @@ Using the miles function below do the following:
   3. Return the number of miles
 */
 
-function miles(/*add your code here*/) {
-  /*add your code here*/
+function miles(km) {
+  miles = km / 1.609344;
+  return miles;
 }
 
 //Task 5b - Feet to CM
@@ -175,8 +183,9 @@ Using the feet function below do the following:
   3. Return number of feet
 */
 
-function feet(/*add your code here*/) {
-  /*add your code here*/
+function feet(cm) {
+  feet = cm / 30.48;
+  return feet;
 }
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 6 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
@@ -189,8 +198,10 @@ Using the annoyingSong function below do the following:
       "{number} bottles of soda on the wall, {number} bottles of soda, take one down pass it around {number left over} bottles of soda on the wall"
 */
 
-function annoyingSong(/*add your code here*/) {
-  /*add your code here*/
+function annoyingSong(bottles) {
+  for (let bottles = 0; i > bottles; bottles-- ) {
+    console.log(`${bottles} bottles of soda on the wall, ${bottles} bottles of soda, take one down pass it around ${number left over} bottles of soda on the wall`);
+  }
 }
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
